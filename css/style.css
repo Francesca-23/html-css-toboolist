@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #f6f8f9
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -21,5 +22,126 @@ header > h1{
     display: inline-block;
     font-size: 40px;
     vertical-align: middle;
+}
+
+/* main */
+
+.container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 50px;
+    color: #3e434c;
+}
+
+/* First section */
+
+.first-section{
+    padding: 15px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.first-section > .box{
+    padding: 8px;
+    border-radius: 5px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.box.box1{
+    background-color: #47adf1;
+    border: 2px solid #47adf1;
+    color: white;
+    margin-left: 50px;
+}
+
+.box.box2{
+    border: 2px solid #c8ced3;
+    color: #c8ced3;
+}
+
+/* Second section */
+
+.second-section{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 40px;
+}
+
+ul > .arrow-symbol{
+    padding: 5px;
+}
+
+ul > .title{
+   font-size: 25px;
+   font-weight: bold;
+}
+
+ul li{
+    font-size: 20px;
+    padding: 8px;
+    list-style-type: none;
+}
+
+.symbol::before{
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 4px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+ul .check::before{
+    content: '\2713'; 
+    color: #64c0a9;
+    border: 1px solid #64c0a9; 
+}
+
+ul .x-symbol::before{
+    content: '\2715';
+    color: red;
+    border: 1px solid red; 
+}
+
+ul .lateral-bar::after{
+    color: white;
+    border-radius: 12px;
+    margin-left: 10px;
+    padding: 6px 11px;
+    font-size: 11px;
+}
+
+.lateral-bar.editorial::after{
+    content: 'Editorial';
+    background-color: #47adf1;
+}
+
+.lateral-bar.goals::after{
+    content: 'Q1 Goals';
+    background-color: #9c72e4;
+}
+
+.lateral-bar.recruiting::after{
+    content: 'Recruiting';
+    background-color: #64c0a9;
+}
+
+.lateral-bar.mobile::after{
+    content: 'Mobile';
+    background-color: #f29e33;
+}
+
+.lateral-bar.website::after{
+    content: 'Website';
+    background-color: #d863a1;
+}
+
+.lateral-bar.sales::after{
+    content: 'Sales';
+    background-color: #b0c926;
 }
 
