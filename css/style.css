@@ -101,7 +101,7 @@ ul .check::before{
     border: 1px solid #64c0a9; 
 }
 
-ul .x-symbol::before{
+ul .cross::before{
     content: '\2715';
     color: red;
     border: 1px solid red; 
